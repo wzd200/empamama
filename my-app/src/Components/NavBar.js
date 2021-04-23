@@ -13,7 +13,7 @@ export default function NavBar() {
               <h1>Empamama's</h1>
             </div>
             <div className='linksHeader'>
-              <Link to="/">Home</Link>
+              <Link to="/Home">Home</Link>
               <Link to="/About">About</Link>
               <Link to="/Menu">Menu</Link>
               <Link to="/Contact">Contact</Link>
@@ -32,6 +32,9 @@ export default function NavBar() {
             </Route>
             <Route path={'/Contact'}>
                 <Contact />
+            </Route>
+            <Route path={'/'}>
+                <Home />
             </Route>
           </Switch>
         </div>
