@@ -6,8 +6,14 @@ export default function Home () {
         <div>
             <section class="heroBanner">
                 <div class="heroImage">
-                    <div class="heroText">
-                        <h1>Welcome to EmpaMAMA's</h1>
+                    <div class="heroMainText">
+                        <h1>Welcome to Empamama's</h1>
+                    </div>
+                    <div class="heroSubText">
+                        <h2>~ Authentic Filipino Cuisine ~</h2>
+                    </div>
+                    <div>
+                        <h2 class="announcementText">Coming soon!</h2>
                     </div>
                 </div>
             </section>
