@@ -1,31 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import { Link, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <h1>This is some text</h1>
-  )
+    <div>
+      <nav>
+        <h1>Website</h1>
+        <Link to="/">Home</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Contact">Contact</Link>
+      </nav>
+
+      <Switch>
+        <Route path={'/Home'}></Route>
+        <Route path={'/About'}></Route>
+        <Route path={'/Contact'}></Route>
+      </Switch>
+    </div>
+
+    
+    
+    
+
+  );
 }
+
 
 export default App;
