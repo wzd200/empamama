@@ -41,14 +41,39 @@ nav {
   display: flex;
   background-color: #282c34;
   color: whitesmoke;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
 }
 
 a {
   color: whitesmoke;
+  margin: 0 0 0 0; 
+  padding: 8%;
+  transition: .3s;
+  /* border: 2px solid purple; */
+}
+
+a:hover {
+  background-color: orange;
 }
 
 a:Link {
   text-decoration: none;
+}
+
+.nameHeader {
+  display: flex;
+  justify-content: center;
+  width: 13%;
+  /* border: 2px solid green; */
+}
+
+.linksHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  /* border: 2px solid red; */
 }
 
 

@@ -6,10 +6,14 @@ function App() {
   return (
     <div>
       <nav>
-        <h1>Website</h1>
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Contact">Contact</Link>
+        <div className='nameHeader'>
+          <h1>Empamama's</h1>
+        </div>
+        <div className='linksHeader'>
+          <Link to="/">Home</Link>
+          <Link to="/About">About</Link>
+          <Link to="/Contact">Contact</Link>
+        </div>
       </nav>
 
       <Switch>
