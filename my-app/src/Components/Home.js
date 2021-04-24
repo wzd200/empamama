@@ -1,7 +1,12 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 export default function Home () {
+    const history = useHistory();
 
+    const routeToMenu = () => {
+        history.push("/Menu")
+    }
     return (
         <div>
             <section class="heroBanner">
@@ -14,7 +19,7 @@ export default function Home () {
                     </div>
                     <div class="multi-container">
                         <div class='multi-button'>
-                            <button>Menu</button>
+                            <button onClick={routeToMenu}>Menu</button>
                         </div>
                     </div>
                     <div>
