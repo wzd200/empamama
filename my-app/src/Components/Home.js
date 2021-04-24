@@ -12,6 +12,11 @@ export default function Home () {
                     <div class="heroSubText">
                         <h2>~ Authentic Filipino Cuisine ~</h2>
                     </div>
+                    <div class="multi-container">
+                        <div class='multi-button'>
+                            <button>Menu</button>
+                        </div>
+                    </div>
                     <div>
                         <h2 class="announcementText">Coming soon!</h2>
                     </div>
