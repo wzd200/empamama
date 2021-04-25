@@ -92,7 +92,8 @@ table {
 
 nav {
   display: flex;
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-image: linear-gradient( black, #282c34);
   color: whitesmoke;
   justify-content: space-between;
   /* border: 2px solid blue; */
@@ -142,6 +143,7 @@ a:Link {
 .heroBanner{
   display: flex;
   background: url(https://st3.depositphotos.com/2593537/15280/i/1600/depositphotos_152804752-stock-photo-typical-spanish-empanadas-isolated-on.jpg);
+  
   width: 100%;
   height: 90vh;
   background-position: center;
@@ -157,7 +159,8 @@ a:Link {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  /* border: 2px solid purple; */
+  border: 2px solid #282c34;
+  border-style: hidden solid hidden;
   width: 40%;
 }
 
@@ -262,5 +265,50 @@ a:Link {
   justify-content: center;
   margin-top: 15%;
 }
+
+/* About CSS */
+
+.aboutBackground {
+  display: flex;
+  background-color: whitesmoke;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutTextContainer {
+  display: flex;
+  margin: 4.5% 2% 7% 13%;
+  height: 80%;
+  width: 30%;
+  /* border: 2px solid red; */
+}
+
+.aboutTextContainer h2 {
+  font-family: 'Lobster', cursive;
+  margin-top: 5%;;
+  font-size: 2.5em;
+}
+
+.aboutTextContainer p {
+  color:black;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5rem;
+  /* border: 2px solid yellow; */
+}
+
+.aboutImageContainer {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMhXfgj7hspZlk15UltSmhWfjb0obQqMzHA&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 4.5%;
+  height: 80%;
+  width: 40%;
+  border: 2px solid blue;
+}
+
+
 
 
