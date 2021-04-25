@@ -319,7 +319,7 @@ a:Link {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
 }
 
 .menuHeader h2 {
@@ -333,6 +333,7 @@ a:Link {
   font-family: 'Assistant', sans-serif;
   font-size: 1.5em;
   /* border: 2px solid yellow; */
+  margin-top: -2%;
 }
 
 .menuItems {
@@ -340,9 +341,40 @@ a:Link {
   font-size: 1.5em;
   display: flex;
   text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid red;
+  margin-top: 4%;
+  margin-right: 5%;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+}
+
+.menuBackground {
+  background-image: url(https://previews.123rf.com/images/chandlervid85/chandlervid851705/chandlervid85170500085/77661558-typical-spanish-empanadas-isolated-on-white-background.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+
+/* Contact CSS */
+
+.contactBackground {
+  border: 2px solid #282c34;
+  background-image: url(https://thumbs.dreamstime.com/z/latin-american-baked-beef-empanadas-sauces-food-background-latin-american-baked-beef-empanadas-sauce-148830510.jpg);
+  height: 90vh;
+}
+
+.contactText {
+  border: 2px solid #282c34;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 6%;
+  width: 40%;
+}
+
+.contactText p {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5em;
 }
 
 
