@@ -6,7 +6,7 @@ import Contact from './Contact';
 import Menu from './Menu';
 import { useHistory } from "react-router-dom";
 
-//test
+//testing
 
 export default function NavBar() {
     const history = useHistory();
