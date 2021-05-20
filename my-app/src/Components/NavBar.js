@@ -2,15 +2,21 @@ import React from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
-import Contact from './Contact'
-import Menu from './Menu'
+import Contact from './Contact';
+import Menu from './Menu';
+import { useHistory } from "react-router-dom";
 
 export default function NavBar() {
+    const history = useHistory();
+    const routeToMenu = () => {
+      history.push("/Menu")
+    }
+
     return (
         <div>
           <nav>
             <div className='nameHeader'>
-              <h1>Empamama's</h1>
+              <h1 onClick={routeToMenu}>Empamama's</h1>
             </div>
             <div className='linksHeader'>
               <Link to="/Home">Home</Link>
@@ -38,10 +44,5 @@ export default function NavBar() {
             </Route>
           </Switch>
         </div>
-    
-        
-        
-        
-    
       );
 }
